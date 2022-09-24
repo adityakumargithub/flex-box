@@ -1,0 +1,26 @@
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+  height: 544px;
+  width: 100%;
+  border: 2px solid black;
+  display: flex;
+  flex-flow: row wrap;
+
+  /*   align items is for veritcal direction: ; */
+  align-items: center;
+
+  /*   justify items is for horizontal direction: ; */
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.items {
+  background-color: orange;
+  border: 2px solid black;
+  height: 200px;
+  width: 200px;
+}
